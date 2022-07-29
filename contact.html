@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>contact</title>
+	<style type="text/css">
+
+ a.n:link {
+  color: #34568B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.n:visited {
+  color: #34568B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.n:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.n:active {
+  color: #ffd000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+div.a{
+      color: #ffffff;
+      background-color:#ffffff;
+      border: 1px; 
+      height: 150px;
+      padding: 0 0 0 0 ;
+      margin-top: -65px;
+      margin-right: -10px;
+      margin-left:-10px;
+    } 
+
+  div.navigationpane {
+  position: absolute;
+  top: -20px;
+  align-content: center;
+  left: 150px;
+  width: 1000px;
+  font-family: 'Times New Roman': sans-serif ;
+}
+ 
+.td:hover {
+  background-color: #34568B;
+  transition-duration: 2s;
+}
+table.sign{
+  border-spacing: 30px;
+
+}
+table.contact{
+  position: absolute;
+  right: px  ;
+  top: 150px ;
+  border-spacing: 10px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 5px #f2f2f2;
+}
+
+  div.p1{
+  position: absolute;
+  width: 50%;
+  top: 0px;
+  border: 0px;
+  left: 50px;
+}
+
+img.shadow{
+  
+ border-radius: 12px;
+  box-shadow: 10px 10px 5px #f2f2f2;
+  top: 300px;
+  position: absolute;
+  left: 8px;
+}
+
+td.normal {
+  font-variant: normal;
+}
+th.scaps{
+  font-variant: small-caps;
+}
+
+.error {color: #FF0000;}
+
+button.form1{
+  width: 100px;
+  height: 40px;
+}
+
+div.contactus{
+  position: absolute;
+   right: 50px;
+   top:300px ;
+
+}
+
+a.m:link {
+  color: #0040ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.m:visited {
+  color: #0040ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.m:hover {
+  color: #b3c6ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.m:active {
+  color: #0040ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+section.footer{
+  display: -webkit-flex;
+  display: flex;
+  top: 1000px;
+  width: 1460px;
+  height: 400px;
+  margin-left:-20px;
+  background-color: #ffffff;
+  position: absolute;
+  
+}
+
+div.font-family1{
+font-family: "Georgia", "Times" ,serif;
+}
+
+table.socialmedia{
+  display: -webkit-flex;
+  display: flex;
+  top: 300px;
+  right: 10px;
+  height: 40px;
+  position: absolute;
+  border-spacing: 5px;
+}
+
+table.foot{
+  top: 10px;
+  left:100px;
+  border-spacing: 15px;
+  position: absolute;
+}
+
+footer.font{
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.font-family6{
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+p.align{
+  left: 600px;
+  top: 350px;
+  position: absolute;
+}
+hr.one{
+  position: absolute;
+  top: 990px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class="p1">
+<table border="0">
+  <tr>
+    <td ><img width="20%" height="20%" src="/Users/nelidajoseph/Desktop/fproject/images/logo.png"></td>
+  </tr>
+</table>
+</div>
+
+<div class="a"></div>
+<div class="navigationpane">
+<div class="font">
+<a href="html_images.asp" target="_blank">
+<center><table border="0", style="width: 60%;" class="sign">
+	<tr style="height:50px;">
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n" onclick="white" href="/Users/nelidajoseph/Desktop/fproject/index.html">Home</a></font></td>
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n"onclick="white" href="/Users/nelidajoseph/Desktop/fproject/participants.html">Participants</a></font></td>
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n"onclick="white" href="/Users/nelidajoseph/Desktop/fproject/category.html">Category</a></font></td>
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n"onclick="white" href="/Users/nelidajoseph/Desktop/fproject/contact.html">Contact</a></font></td>
+	</tr>
+</table></center>
+</a>
+</div>
+</div>
+	
+<hr width="100%" color="#e6e6e6">
+
+<img class="shadow" src="/Users/nelidajoseph/Desktop/fproject/images/contact.jpeg">
+
+<table border="0" width="100%" class="contact">
+  <tr>
+    <th class="scaps"><font size="9">Contact Us</font></th>
+  </tr>
+
+  <tr>
+    <td align="center" class="normal"><font size="4" style="">Please send us your questions and feedback in order to improve <br> the experience of millions in applying for scholarships world wide. </font></td>
+  </tr>
+</table>
+
+<main>
+        <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') : ?>
+        <div class="contactus">
+            <table border="0" width="700px" >
+              <tr>
+                <td>
+                  <form action="<?php htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
+                <div>
+                    <label for="name">Name:</label> &nbsp &nbsp
+                    <input type="text" name="name"  placeholder="Enter your name" />
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="name">Email:</label> &nbsp &nbsp
+                    <input type="email" name="email" placeholder="Enter your email" />
+                </div>
+                <div><br><br>
+                  <label for="text">Select a topic</label><br><br>
+                  <button type="Select">How to apply?</button> <br><br> <button type="Select">Which courses are offered?</button> <br>
+                  <br> <button  type="Select">Is the scholarship renewable? </button> <br><br> <button type="Select">When can I utilize my Scholarship</button>  <br><br> <button type="Select">How much is the scholarship worth </button> <br><br>
+                  <button type="Select">Is it a fully funded scholarship</button>
+
+                </div>
+
+                <br>
+                <br>
+
+                <div>
+                  <label for="text">Or tell us what you need help with:</label>
+                  <br>
+                  <textarea placeholder="Enter a topic"></textarea>
+                </div>
+
+                <br>
+
+                <button class="form1" type="submit">Get Help</button>
+
+                <p><u><font color="blue">Privacy Policy</font></u></p>
+
+            </form>
+                </td>
+              </tr>
+            </table>
+            
+            </div>
+
+        <?php else : ?>
+
+            <?php
+            //---------------------------------------------
+            // WARNING: this doesn't include sanitization
+            // and validation
+            //---------------------------------------------
+            if (isset($_POST['name'], $_POST['email'])) {
+                $name = htmlspecialchars($_POST['name']);
+                $email = htmlspecialchars($_POST['email']);
+
+                // show the $name and $email
+                echo "Thanks $name for your subscription.<br>
+
+        <?php endif ?>
+</main>
+
+<hr class="one" width="1460px" color="#e6e6e6">
+ 
+<section class="footer">
+<footer>
+<center>
+  <table border="0" class="foot" width="1200px">
+
+    <tr height="30px">
+         <th align="center" width="400px"><div class="font-family6"><font size="5" color="#246175">Hours of Operation</font></div></th>
+         <th align="center" width="400px"><div class="font-family6"><font size="5" color="#246175">Contact Us</font></div></th>
+         <th align="center" width="400px"><div class="font-family6"><font size="5" color="#246175">help</font></div></th>
+    </tr>
+
+    <tr height="150px">
+      <td class="table" align="center" width="200px">
+        <font color="#246175">Mon-Fri 8:00am to 4:00pm <br> Sat & Sun 9:00pm to 12:00pm</font>
+      </td>
+      <td class="table" align="center" width="200px">
+        <font color="#246175">Email: <a class="m" onclick="white" href="">educationforeveryone@gmail.com</a><br> Telephone: +254 7493443  +211 9153244<br></font>
+      </td>
+      <td class="table" align="center" width="200px">
+        <font color="#246175">For any inquiries  please contact our helpdesk: <br> email: <a class="m" onclick="white" href="">info_helpdesk@efe.ac.africa</a><br>Telephone : +211 9203948  +254 7622333</font>
+      </td>
+    </tr>
+  </table>
+</center>
+
+<table border="0" width="15%" class="socialmedia">
+  <tr>
+    <td colspan="7"><font size="2" style="font-style: oblique" color="#246175"><div class="font-family1"><center><b>Follow us</b></div></center></font></td>
+  </tr>
+
+  <tr align="right">
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social1.webp"></td>
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social2.webp"></td>
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social3.png"></td>
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social4.png"></td>
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social5.webp"></td>
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social6.webp"></td>
+    <td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social7.png"></td>
+  </tr>
+</table>
+
+ <center><font color="#246175" size="3" style="font-style: oblique"><div class="font-family1"><p class="align">&#169 2022 Education for Everyone</p></div> </font> </center>
+
+</footer>
+</section>
+
+</body>
+</html>

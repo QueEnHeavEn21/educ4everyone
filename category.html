@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <title>Category</title>
+	 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+<style type="text/css">
+
+  a.n:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.n:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.n:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.n:active {
+  color: #ffd000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+div.font-family{
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+div.font-family1{
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.font{
+	font-family: "Georgia", "Times" ,serif;
+}
+
+table.category{
+	position: absolute;
+	top: 400px;
+	left: 120px;
+}
+
+table.category1{
+	position: absolute;
+	top: 500px;
+	left: 120px;
+}
+
+table.category2{
+	position: absolute;
+	top: 900px;
+	left: 130px;
+	border-spacing: 50px;
+}
+
+table.round{
+	border-radius: 12px;
+	border-color: 5px solid black;
+	border-color: #e6e6ff;
+  border-spacing: 60px;
+}
+
+th.round{
+	border-radius: 12px;
+	border-color: 5px solid black;
+	border-color: #e6e6ff;
+  box-shadow: 10px 10px 5px #000066;
+  border-spacing: 10px;
+}
+
+td.round{
+	border-radius: 12px;
+	border-color: 5px solid black;
+	border-color: #e6e6ff;
+  box-shadow: 10px 10px 5px #000066;
+  border-spacing: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Georgia", "Times" ,serif;
+}
+
+.wrapper{
+	position: absolute;
+	width: 1440px;
+	height: 1300px;
+	overflow: hidden;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1)35%, rgba(0,212,255,1) 100%);
+}
+
+h2{
+	font-family: poppins;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: o;
+}
+
+.box div{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border: 6px solid rgba(255, 255, 255, 0.8);
+
+}
+
+.box div:nth-child(1){
+	top: 12%;
+	left: 42%;
+	animation: animate 10s linear infinite;
+
+}
+
+.box div:nth-child(2){
+	top: 70%;
+	left: 50%;
+	animation: animate 7s linear infinite;
+
+}
+
+.box div:nth-child(3){
+	top: 17%;
+	left: 6%;
+	animation: animate 9s linear infinite;
+
+}
+
+.box div:nth-child(4){
+	top: 20%;
+	left: 60%;
+	animation: animate 10s linear infinite;
+
+}
+
+.box div:nth-child(5){
+	top: 67%;
+	left: 10%;
+	animation: animate 6s linear infinite;
+
+}
+
+.box div:nth-child(6){
+	top: 80%;
+	left: 70%;
+	animation: animate 12s linear infinite;
+
+}
+
+.box div:nth-child(7){
+	top: 60%;
+	left: 80%;
+	animation: animate 15s linear infinite;
+
+}
+
+.box div:nth-child(8){
+	top: 32%;
+	left: 25%;
+	animation: animate 16s linear infinite;
+
+}
+
+.box div:nth-child(9){
+	top: 90%;
+	left: 25%;
+	animation: animate 9s linear infinite;
+
+}
+
+.box div:nth-child(10){
+	top: 20%;
+	left: 80%;
+	animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate {
+	0%{
+		transform: scale(0) translateY(0) rotate(0);
+		opacity: 1;
+	}
+
+	100%{
+		transform: scale(1.3) translateY(-90%) rotate(360deg);
+		opacity: 0;
+	}
+} 
+
+h1.font-family{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: #ebf6f9;
+	text-decoration: bold;
+}
+
+
+div.fade {
+  animation: fadeIn 2s infinite alternate;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+
+}
+
+div.heading{
+	position: absolute;
+	top: 200px;
+	left: 400px ;
+}
+
+div.topnav {
+  position: absolute;
+  top: 1200px;
+  border: 0px;
+  left: 610px;
+}
+
+table.socialmedia{
+  display: -webkit-flex;
+  display: flex;
+  top: 300px;
+  right: 10px;
+  height: 40px;
+  position: absolute;
+  border-spacing: 5px;
+}
+
+table.foot{
+  top: 10px;
+  left:100px;
+  border-spacing: 15px;
+  position: absolute;
+}
+
+footer.font{
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.font-family6{
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+td.table {
+  font: Arial;
+}
+
+div.hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+div.active {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.m:link {
+  color: #0040ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.m:visited {
+  color: #0040ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.m:hover {
+  color: #b3c6ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.m:active {
+  color: #0040ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer{
+	display: -webkit-flex;
+  display: flex;
+  top: 2200px;
+  width: 1460px;
+  height: 400px;
+  margin-left:-20px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+div.font-family5{
+font-family: "Georgia", "Times" ,serif;
+}
+
+p.align{
+	left: 650px;
+	top: 350px;
+	position: absolute;
+}
+
+section.sec1{
+	position: absolute;
+	width: 1440px ;
+	height: 1000px;
+	top: 1300px;
+	background-color: #ebf6f9;
+}
+
+*{
+		margin: 0; padding: 0;
+		box-sizing: border-box;
+	
+		
+		
+	}
+	
+
+.heading{
+	color: #444;
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 50px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 15px;
+	align-items: flex-start;
+	padding: 5px 5%;
+	margin-top: 100px;
+
+}
+
+.container .main-video{
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.container .main-video video{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.container .main-video{
+	color: #333;
+	font-size: 23px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.container .video-list{
+	background: #fff;
+	border-radius: 5px;
+	height: 520px;
+	overflow-y: scroll;
+}
+
+.container .video-list:: -webkit-scrollbar{
+	width: 7px;
+}
+
+.container .video-list:: -webkit-scrollbar track{
+	background: #ccc;
+	border-radius: 50px;
+}
+
+.container .video-list:: -webkit-scrollbar-thumb{
+	background: #666;
+	border-radius: 50px;
+}
+
+.container .video-list .vid video{
+	width: 100px;
+	border-radius: 5px;
+
+  }
+
+.container .video-list .vid{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	background: #f7f7f7;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,.1);
+	cursor: pointer;
+}
+
+.container .video-list .vid:hover {
+	background: #eee;
+}
+
+.container .video-list .vid.active {
+	background: #2980b9;
+}
+
+.container .video-list .vid.active {
+	background: #2980b9;
+}
+
+.container .video-list .vid.active .title {
+	color: #fff;
+}
+
+.container .video-list .vid. .title {
+	color: #333;
+	font-size: 17px;
+}
+
+@media (max-width: 991px){
+
+	.container{
+	grid-template-columns: 1.5fr 1fr;
+	padding: 10px;
+
+}
+
+}
+
+@media (max-width: 768px){
+
+	.container{
+	grid-template-columns:1fr;
+
+}
+
+}
+
+table.nav{
+	position: absolute;
+	top: 30px;
+	left: 300px;
+	width: 1000px;
+}
+
+div.ff{
+	font: Arial;
+}
+
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+<a href="html_images.asp" target="_blank">
+<center><table border="0", style="width: 60%;" class="sign, nav">
+	<tr style="height:50px;">
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n" onclick="white" href="/Users/nelidajoseph/Desktop/fproject/index.html"><div class="font">Home</div></a></font></td>
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n"onclick="white" href="/Users/nelidajoseph/Desktop/fproject/participants.html"><div class="font">Participants</div></a></font></td>
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n"onclick="white" href="/Users/nelidajoseph/Desktop/fproject/category.html"><div class="font">Category</div></a></font></td>
+		<td class="td" align="center" width="15%"><font color="#000000", size="4"><a class="n"onclick="white" href="/Users/nelidajoseph/Desktop/fproject/contact.html"><div class="font">Contact</div></a></font></td>
+	</tr>
+</table></center>
+</a>
+
+
+<div class="heading">
+ <h1 class="font-family , w3-animate-fading"><div class="fade"><b><font size="9" style="font-family: Lucida Console, Courier New, monospace;">Education for everyone</font></b></div></h1>
+</div>
+
+
+<center>
+<table border="0" width="1200px" class="category">
+	<tr>
+		<th width="500px" height="60px" align="center" colspan="3"><font size="6" color="#ffffff"><div class="font-family">Categories</div></font></th>
+	</tr>
+
+	<tr>
+		<th width="500px" height="60px" align="center" colspan="3"><font size="6" color="#ffffff"><div class="font-family">Category of Each scholarship</div></font></th>
+	</tr>
+</table>
+</center>
+
+<center>
+<table border="0" width="1200px" class="round , category1">
+	<tr>
+		<td align="center" class="round" width="200px" height="100px"><br><font size="4" color="#ffffff"><div class="font-family1"><b>Private</b><br>Private Scholaships</div></font></td>
+		<td align="center" class="round" width="200px" height="100px" ><br><font size="4" color="#ffffff"><div class="font-family1"><b>International</b><br>International Scholarship</div></font></td>
+		<td align="center" class="round" width="200px" height="100px"><br><font size="4" color="#ffffff"><div class="font-family1"><b>Organizational</b><br>Organizational Scholaship</div></font></td>
+	</tr>
+
+	<tr>
+
+		<td align="center" class="round" width="200px" height="100px"><br><font size="4" color="#ffffff"><div class="font-family1"><b>Aid</b><br>Aid Scholarship</div></font></td>
+		<td align="center" class="round" width="200px" height="100px"><br><font size="4" color="#ffffff"><div class="font-family1"><b>Research</b><br>Research Scholarship</div></font></td>
+		<td align="center" class="round" width="200px" height="100px"><br><font size="4" color="#ffffff"><div class="font-family1"><b>Official Bond</b><br>Official Bond Scholarship</div></font></td>
+	</tr>
+</table>
+</center>
+
+<center>
+	<table class="category2"border="0" width="1200px">
+		<tr>
+			<td align="center"><font size="5" color="#ebf6f9" style="font-family: Georgia, Times ,serif;">We offer scholarships all over the world!</font></td>
+		</tr>
+		<tr>
+			<td align="center"><font size="5" color="#ebf6f9" style="font-family: Georgia, Times ,serif; font-variant: small-caps;">Just Dream And It Will Come True</font></td>
+		</tr>
+	</table>
+</center>
+
+<div class ="topnav">
+	<a href="/Users/nelidajoseph/Desktop/fproject/applynow.html" class="active"><button type="button" style="width: 200px; height: 30px; border-color: #ffffff; border-radius:10px; background-color: #ffffff;"><i><div class="font">Apply Now</div></i></button></a>
+</div><br>
+
+<div class="box">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
+
+
+<section class="sec1">
+	
+<h3 class="heading"> Video Gallery</h3>
+
+<div class="container">
+	
+<div class="main-video">
+	<div class="video">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid1.mp4" controls></video>
+		<h3 class="title"></h3>
+	</div>
+</div>
+
+<div class="video-list">
+	<div class="vid active">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid1.mp4"  muted ></video>
+		<h3 class="title"> 01 video title</h3>
+	</div>
+
+	<div class="vid">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid2.mp4"  muted ></video>
+		<h3 class="title"> 02 video title</h3>
+	</div>
+
+	<div class="vid">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid3.mp4"  muted ></video>
+		<h3 class="title"> 03 video title</h3>
+	</div>
+
+	<div class="vid">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid4.mp4"  muted ></video>
+		<h3 class="title"> 04 video title</h3>
+	</div>
+
+	<div class="vid">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid5.mp4"  muted ></video>
+		<h3 class="title"> 05 video title</h3>
+	</div>
+
+	<div class="vid">
+		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid6.mp4"  muted ></video>
+		<h3 class="title"> 06 video title</h3>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	let listVideo = document.querySelectorAll('.video-list .vid');
+	let mainVideo = document.querySelector('.main-video video');
+	let title = document.querySelector('.main-video video .title');
+
+
+	listVideo.forEach(video => {
+		video.onclick = () =>{
+			listVideo.forEach(vid => vid.classList.remove('active'));
+			video.classList.add('active');
+			if (video.classList.contains('active')) {
+				let src = video.children[0].getAttribute('src');
+				mainVideo.src = src;
+				let text = video.children[1].innerHTML;
+				title.innerHTML = text
+
+			};
+		};
+	});
+</script>
+
+
+</section>
+
+<footer>
+<center>
+	<table border="0" class="foot" width="1200px">
+
+		<tr height="30px">
+         <th align="center" width="400px"><div class="font-family6"><font size="5" color="#246175">Hours of Operation</font></div></th>
+         <th align="center" width="400px"><div class="font-family6"><font size="5" color="#246175">Contact Us</font></div></th>
+         <th align="center" width="400px"><div class="font-family6"><font size="5" color="#246175">help</font></div></th>
+		</tr>
+
+		<tr height="150px">
+			<td class="table" align="center" width="200px">
+				<font color="#246175">Mon-Fri 8:00am to 4:00pm <br> Sat & Sun 9:00pm to 12:00pm</font>
+			</td>
+			<td class="table" align="center" width="200px">
+				<font color="#246175">Email: <a class="m" onclick="white" href="">educationforeveryone@gmail.com</a><br> Telephone: +254 7493443  +211 9153244<br></font>
+			</td>
+			<td class="table" align="center" width="200px">
+				<font color="#246175">For any inquiries  please contact our helpdesk: <br> email: <a class="m" onclick="white" href="">info_helpdesk@efe.ac.africa</a><br>Telephone : +211 9203948  +254 7622333</font>
+			</td>
+		</tr>
+	</table>
+</center>
+
+<table border="0" width="15%" class="socialmedia">
+	<tr>
+		<td colspan="7"><font size="2" style="font-style: oblique" color="#246175"><div class="font-family5"><center><b>Follow us</b></div></center></font></td>
+	</tr>
+
+	<tr align="right">
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social1.webp"></td>
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social2.webp"></td>
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social3.png"></td>
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social4.png"></td>
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social5.webp"></td>
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social6.webp"></td>
+		<td align="right"><img width="20px" height="20px" src="/Users/nelidajoseph/Desktop/fproject/images/social7.png"></td>
+	</tr>
+</table>
+
+ <center><font color="#246175" size="3" style="font-style: oblique"><div class="font-family5"><p class="align">&#169 2022 Education for Everyone</p></div></font> 
+</center>
+</footer>
+	
+</body>
+</html>
