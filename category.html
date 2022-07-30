@@ -464,6 +464,30 @@ table.nav{
 div.ff{
 	font: Arial;
 }
+	
+p.image-text {
+	position: absolute;
+	left: 80px;
+	top: 400px;
+	text-align: center;
+	animation: fadeIn 2s infinite alternate;
+}
+
+img.sec{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+	width: 1300px;
+	height: 700px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #0000b3;
+	animation: fadeIn 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 </style>
 </head>
@@ -546,73 +570,16 @@ div.ff{
 </div>
 
 
-<section class="sec1">
+<section class="sec">
 	
-<h3 class="heading"> Video Gallery</h3>
+<br>
+<br>	
+<center><h1 class="sechead"><font style="font-family: Copperplate, Papyrus, fantasy;" color="#0000b3" size="9">The Chance is yours</font></h1></center>
+<div class="w3-animate-fading">
+<img class="sec" src="/Users/nelidajoseph/Desktop/fproject/images/fadein&out.webp">
 
-<div class="container">
-	
-<div class="main-video">
-	<div class="video">
-		<video src="vid1.mp4" controls></video>
-		<h3 class="title"></h3>
-	</div>
+<p class="image-text"><font color="#ffe6e9" size="6" style="font-style: oblique; font-family: Georgia, Times ,serif; font-variant: normal;" >Give your dream a chance! <br> And <br> Dreams don't work unless you do!</font></p>
 </div>
-
-<div class="video-list">
-	<div class="vid active">
-		<video src="vid1.mp4"  muted ></video>
-		<h3 class="title"> 01 video title</h3>
-	</div>
-
-	<div class="vid">
-		<video src="vid2.mp4"  muted ></video>
-		<h3 class="title"> 02 video title</h3>
-	</div>
-
-	<div class="vid">
-		<video src="vid3.mp4"  muted ></video>
-		<h3 class="title"> 03 video title</h3>
-	</div>
-
-	<div class="vid">
-		<video src="url('https://youtu.be/tj7utbR4rMc')"  muted ></video>
-		<h3 class="title"> 04 video title</h3>
-	</div>
-
-	<div class="vid">
-		<video src="/Users/nelidajoseph/Desktop/fproject/images/vid5.mp4"  muted ></video>
-		<h3 class="title"> 05 video title</h3>
-	</div>
-
-	<div class="vid">
-		<video src="vid6.mp4"  muted ></video>
-		<h3 class="title"> 06 video title</h3>
-	</div>
-</div>
-</div>
-
-<script type="text/javascript">
-	let listVideo = document.querySelectorAll('.video-list .vid');
-	let mainVideo = document.querySelector('.main-video video');
-	let title = document.querySelector('.main-video video .title');
-
-
-	listVideo.forEach(video => {
-		video.onclick = () =>{
-			listVideo.forEach(vid => vid.classList.remove('active'));
-			video.classList.add('active');
-			if (video.classList.contains('active')) {
-				let src = video.children[0].getAttribute('src');
-				mainVideo.src = src;
-				let text = video.children[1].innerHTML;
-				title.innerHTML = text
-
-			};
-		};
-	});
-</script>
-
 
 </section>
 
